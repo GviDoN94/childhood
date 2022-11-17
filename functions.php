@@ -11,4 +11,6 @@ function childhood_scripts() {
     . '/assets/js/main.min.js', array(), null, true );
 };
 
+add_theme_support( 'custom-logo' );
+
 ?>
