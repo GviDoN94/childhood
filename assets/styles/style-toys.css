@@ -1,0 +1,19 @@
+.toys .subtitle {
+    margin-bottom: 15px;
+}
+
+.site-main
+article {
+    text-align: center;
+}
+
+.site-main
+img {
+    width: 70%;
+}
+
+.site-main
+p {
+    line-height: 24px;
+    font-size: 24px;
+}

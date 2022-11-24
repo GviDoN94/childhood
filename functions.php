@@ -4,6 +4,8 @@ add_action('wp_enqueue_scripts', 'childhood_scripts');
 
 function childhood_styles() {
     wp_enqueue_style( 'childhood-style', get_stylesheet_uri() );
+    wp_enqueue_style( 'style-toys', get_template_directory_uri()
+    . '/assets/styles/style-toys.css' );
 };
 
 function childhood_scripts() {
@@ -21,6 +23,9 @@ function filter_nav_menu_link_attributes($atts, $item, $args) {
         $atts['class'] = 'header__nav-item';
 
         if ($item->current) {
+            $atts['class'] .= ' header__nav-item-active';
+        }
+        if( $item->ID === 176 && ( in_category( 'soft_toys' ) || in_category( 'edu_toys' ))){
             $atts['class'] .= ' header__nav-item-active';
         }
     };
