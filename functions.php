@@ -33,4 +33,9 @@ function filter_nav_menu_link_attributes($atts, $item, $args) {
     return $atts;
 }
 
+add_filter('category_link', 'remove_string_category', 99 );
+function remove_string_category($a){
+	return str_replace( 'category/', '', $a );
+}
+
 ?>

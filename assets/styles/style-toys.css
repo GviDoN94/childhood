@@ -2,6 +2,10 @@
     margin-bottom: 15px;
 }
 
+.subtitle a {
+    text-decoration: none;
+}
+
 .site-main
 article {
     text-align: center;
