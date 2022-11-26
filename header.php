@@ -8,6 +8,10 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <link rel="shortcut icon" href="<?php echo bloginfo('template_url'); ?>/assets/img/favicons/favicon.ico" type="image/x-icon">
+        <link rel="preload" href="/assets/fonts/AvenirNextCyr-Bold.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/assets/fonts/AvenirNextCyr-Regular.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/assets/fonts/AvenirNextCyr-Italic.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/assets/fonts/AvenirNextCyr-Medium.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="apple-touch-icon" href="<?php echo bloginfo('template_url'); ?>/assets/img/favicons/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="57x57" href="<?php echo bloginfo('template_url'); ?>/assets/img/favicons/apple-touch-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="72x72" href="<?php echo bloginfo('template_url'); ?>/assets/img/favicons/apple-touch-icon-72x72.png">

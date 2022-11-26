@@ -14,7 +14,7 @@ Template Name: Наша история
         <div class="row">
             <div class="col-lg-6">
                 <div class="subtitle">
-                    <?php the_field('history_subtitle_1'); ?>
+                    <?php get_field('history_subtitle_1'); ?>
                 </div>
                 <div class="aboutus__text">
                     <?php the_field('history_descr_1'); ?>
